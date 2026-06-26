@@ -15,6 +15,7 @@ export function ProductCard({ product, flat = false }: ProductCardProps) {
   const price = selectedVariant?.price ?? product.price;
   const priceUnit = product.unit.replace(/^per\s+/i, "");
   const hasVariants = product.variants.length > 1;
+  const isFreshProduct = product.category === "Vegetables" || product.category === "Fruits";
 
   return (
     <article
@@ -37,20 +38,17 @@ export function ProductCard({ product, flat = false }: ProductCardProps) {
           </div>
         )}
 
-        <span className="absolute left-3 top-3 rounded-full bg-[#FF6A3D] px-3 py-1 text-[0.68rem] font-black leading-none text-white shadow-[0_8px_18px_rgba(255,106,61,0.22)]">
-          Fresh
-        </span>
+        {isFreshProduct && (
+          <span className="absolute left-3 top-3 rounded-full bg-[#FF6A3D] px-3 py-1 text-[0.68rem] font-black leading-none text-white shadow-[0_8px_18px_rgba(255,106,61,0.22)]">
+            Fresh
+          </span>
+        )}
       </div>
 
       <div className="flex min-h-0 flex-1 flex-col p-3.5">
-        <div className="flex items-start justify-between gap-3">
-          <h3 className="line-clamp-2 min-h-[2.5rem] text-lg font-black leading-snug text-brand-dark">
-            {product.name}
-          </h3>
-          <span className="flex-none rounded-xl bg-brand-primarySoft px-3 py-1 text-sm font-bold text-brand-primaryDark">
-            {product.unit}
-          </span>
-        </div>
+        <h3 className="line-clamp-2 min-h-[2.5rem] text-lg font-black leading-snug text-brand-dark">
+          {product.name}
+        </h3>
 
         {hasVariants ? (
           <select
