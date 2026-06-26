@@ -1,0 +1,764 @@
+{
+  "store": {
+    "name": "Grocery_SHOP",
+    "currency": "LKR",
+    "currencySymbol": "Rs."
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Vegetables",
+      "slug": "vegetables"
+    },
+    {
+      "id": 2,
+      "name": "Fruits",
+      "slug": "fruits"
+    },
+    {
+      "id": 3,
+      "name": "Biscuits & Snacks",
+      "slug": "biscuits-snacks"
+    },
+    {
+      "id": 4,
+      "name": "Eggs & Dairy",
+      "slug": "eggs-dairy"
+    },
+    {
+      "id": 5,
+      "name": "Frozen Food",
+      "slug": "frozen-food"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Tomato",
+      "slug": "tomato",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/tomato.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Carrot",
+      "slug": "carrot",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/carrot.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 220
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Leeks",
+      "slug": "leeks",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/leeks.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Brinjal",
+      "slug": "brinjal",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/brinjal.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pumpkin",
+      "slug": "pumpkin",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/pumpkin.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Beans",
+      "slug": "beans",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/beans.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 240
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cabbage",
+      "slug": "cabbage",
+      "category": "Vegetables",
+      "unit": "per item",
+      "image": "/images/products/cabbage.png",
+      "variants": [
+        {
+          "label": "1 item",
+          "price": 130
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ladies Fingers (Okra)",
+      "slug": "ladies-fingers-okra",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/ladies-fingers-okra.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 260
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bitter Gourd (Karawila)",
+      "slug": "bitter-gourd-karawila",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/bitter-gourd-karawila.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 190
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Potato",
+      "slug": "potato",
+      "category": "Vegetables",
+      "unit": "per kg",
+      "image": "/images/products/potato.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 310
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Banana (Ambul)",
+      "slug": "banana-ambul",
+      "category": "Fruits",
+      "unit": "per dozen",
+      "image": "/images/products/banana-ambul.png",
+      "variants": [
+        {
+          "label": "1 dozen",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Mango",
+      "slug": "mango",
+      "category": "Fruits",
+      "unit": "per kg",
+      "image": "/images/products/mango.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 350
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Papaya",
+      "slug": "papaya",
+      "category": "Fruits",
+      "unit": "per item",
+      "image": "/images/products/papaya.png",
+      "variants": [
+        {
+          "label": "1 item",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Watermelon",
+      "slug": "watermelon",
+      "category": "Fruits",
+      "unit": "per item",
+      "image": "/images/products/watermelon.png",
+      "variants": [
+        {
+          "label": "1 item",
+          "price": 250
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Pineapple",
+      "slug": "pineapple",
+      "category": "Fruits",
+      "unit": "per item",
+      "image": "/images/products/pineapple.png",
+      "variants": [
+        {
+          "label": "1 item",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Avocado",
+      "slug": "avocado",
+      "category": "Fruits",
+      "unit": "per item",
+      "image": "/images/products/avocado.png",
+      "variants": [
+        {
+          "label": "1 item",
+          "price": 160
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Rambutan",
+      "slug": "rambutan",
+      "category": "Fruits",
+      "unit": "per kg",
+      "image": "/images/products/rambutan.png",
+      "variants": [
+        {
+          "label": "1kg",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Munchee Cream Cracker",
+      "slug": "munchee-cream-cracker",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/munchee-cream-cracker.png",
+      "variants": [
+        {
+          "label": "100g",
+          "price": 95
+        },
+        {
+          "label": "200g",
+          "price": 180
+        },
+        {
+          "label": "400g",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Munchee Marie",
+      "slug": "munchee-marie",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/munchee-marie.png",
+      "variants": [
+        {
+          "label": "100g",
+          "price": 75
+        },
+        {
+          "label": "200g",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Potato Chips",
+      "slug": "potato-chips",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/potato-chips.png",
+      "variants": [
+        {
+          "label": "Small",
+          "price": 95
+        },
+        {
+          "label": "Large",
+          "price": 220
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Cheese Balls",
+      "slug": "cheese-balls",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/cheese-balls.png",
+      "variants": [
+        {
+          "label": "Small",
+          "price": 55
+        },
+        {
+          "label": "Large",
+          "price": 95
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Digestive Biscuits",
+      "slug": "digestive-biscuits",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/digestive-biscuits.png",
+      "variants": [
+        {
+          "label": "200g",
+          "price": 180
+        },
+        {
+          "label": "400g",
+          "price": 320
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Munchee Chocolate Puff",
+      "slug": "munchee-chocolate-puff",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/munchee-chocolate-puff.png",
+      "variants": [
+        {
+          "label": "100g",
+          "price": 75
+        },
+        {
+          "label": "200g",
+          "price": 145
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Ritz Crackers",
+      "slug": "ritz-crackers",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/ritz-crackers.png",
+      "variants": [
+        {
+          "label": "200g",
+          "price": 220
+        },
+        {
+          "label": "400g",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Oreo Cookies",
+      "slug": "oreo-cookies",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/oreo-cookies.png",
+      "variants": [
+        {
+          "label": "Regular",
+          "price": 150
+        },
+        {
+          "label": "Double",
+          "price": 290
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Peanuts (Salted)",
+      "slug": "peanuts-salted",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/peanuts-salted.png",
+      "variants": [
+        {
+          "label": "50g",
+          "price": 65
+        },
+        {
+          "label": "100g",
+          "price": 110
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Popcorn (Butter)",
+      "slug": "popcorn-butter",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/popcorn-butter.png",
+      "variants": [
+        {
+          "label": "Small",
+          "price": 90
+        },
+        {
+          "label": "Large",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Kurkure",
+      "slug": "kurkure",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/kurkure.png",
+      "variants": [
+        {
+          "label": "Small",
+          "price": 55
+        },
+        {
+          "label": "Large",
+          "price": 85
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Munchee Lemon Puff",
+      "slug": "munchee-lemon-puff",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/munchee-lemon-puff.png",
+      "variants": [
+        {
+          "label": "100g",
+          "price": 75
+        },
+        {
+          "label": "200g",
+          "price": 130
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Nice Biscuits",
+      "slug": "nice-biscuits",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/nice-biscuits.png",
+      "variants": [
+        {
+          "label": "100g",
+          "price": 60
+        },
+        {
+          "label": "200g",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Prawn Crackers",
+      "slug": "prawn-crackers",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/prawn-crackers.png",
+      "variants": [
+        {
+          "label": "Small",
+          "price": 90
+        },
+        {
+          "label": "Large",
+          "price": 175
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Chocolate Wafer",
+      "slug": "chocolate-wafer",
+      "category": "Biscuits & Snacks",
+      "unit": "per pack",
+      "image": "/images/products/chocolate-wafer.png",
+      "variants": [
+        {
+          "label": "100g",
+          "price": 110
+        },
+        {
+          "label": "200g",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Eggs",
+      "slug": "eggs",
+      "category": "Eggs & Dairy",
+      "unit": "per pack",
+      "image": "/images/products/eggs.png",
+      "variants": [
+        {
+          "label": "6 pack",
+          "price": 385
+        },
+        {
+          "label": "10 pack",
+          "price": 650
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Anchor Milk",
+      "slug": "anchor-milk",
+      "category": "Eggs & Dairy",
+      "unit": "per carton",
+      "image": "/images/products/anchor-milk.png",
+      "variants": [
+        {
+          "label": "500ml",
+          "price": 210
+        },
+        {
+          "label": "1L",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Butter",
+      "slug": "butter",
+      "category": "Eggs & Dairy",
+      "unit": "per pack",
+      "image": "/images/products/butter.png",
+      "variants": [
+        {
+          "label": "100g",
+          "price": 280
+        },
+        {
+          "label": "200g",
+          "price": 480
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Curd",
+      "slug": "curd",
+      "category": "Eggs & Dairy",
+      "unit": "per cup",
+      "image": "/images/products/curd.png",
+      "variants": [
+        {
+          "label": "250ml",
+          "price": 130
+        },
+        {
+          "label": "500ml",
+          "price": 220
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Cheese Slices",
+      "slug": "cheese-slices",
+      "category": "Eggs & Dairy",
+      "unit": "per pack",
+      "image": "/images/products/cheese-slices.png",
+      "variants": [
+        {
+          "label": "8 slices",
+          "price": 320
+        },
+        {
+          "label": "16 slices",
+          "price": 550
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Yoghurt",
+      "slug": "yoghurt",
+      "category": "Eggs & Dairy",
+      "unit": "per cup",
+      "image": "/images/products/yoghurt.png",
+      "variants": [
+        {
+          "label": "80g",
+          "price": 110
+        },
+        {
+          "label": "150g",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Frozen Chicken Nuggets",
+      "slug": "frozen-chicken-nuggets",
+      "category": "Frozen Food",
+      "unit": "per pack",
+      "image": "/images/products/frozen-chicken-nuggets.png",
+      "variants": [
+        {
+          "label": "300g",
+          "price": 480
+        },
+        {
+          "label": "500g",
+          "price": 780
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Frozen French Fries",
+      "slug": "frozen-french-fries",
+      "category": "Frozen Food",
+      "unit": "per pack",
+      "image": "/images/products/frozen-french-fries.png",
+      "variants": [
+        {
+          "label": "400g",
+          "price": 320
+        },
+        {
+          "label": "750g",
+          "price": 520
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Frozen Fish Fillets",
+      "slug": "frozen-fish-fillets",
+      "category": "Frozen Food",
+      "unit": "per pack",
+      "image": "/images/products/frozen-fish-fillets.png",
+      "variants": [
+        {
+          "label": "300g",
+          "price": 580
+        },
+        {
+          "label": "500g",
+          "price": 950
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Frozen Peas",
+      "slug": "frozen-peas",
+      "category": "Frozen Food",
+      "unit": "per pack",
+      "image": "/images/products/frozen-peas.png",
+      "variants": [
+        {
+          "label": "250g",
+          "price": 220
+        },
+        {
+          "label": "500g",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Ice Cream",
+      "slug": "ice-cream",
+      "category": "Frozen Food",
+      "unit": "per tub",
+      "image": "/images/products/ice-cream.png",
+      "variants": [
+        {
+          "label": "500ml",
+          "price": 480
+        },
+        {
+          "label": "1L",
+          "price": 850
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Frozen Sausages",
+      "slug": "frozen-sausages",
+      "category": "Frozen Food",
+      "unit": "per pack",
+      "image": "/images/products/frozen-sausages.png",
+      "variants": [
+        {
+          "label": "4 pack",
+          "price": 380
+        },
+        {
+          "label": "6 pack",
+          "price": 620
+        }
+      ]
+    }
+  ]
+}
